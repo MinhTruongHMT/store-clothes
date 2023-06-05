@@ -10,15 +10,34 @@ const StyleDiv = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+  padding: 0 110px;
   .logo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+  .contentLeft {
+    width: 50%;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    h2 {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      margin-left: -165px;
+      transform: rotate(270deg);
+      transform-origin: (0, 0);
+    }
+  }
+  .contentRight {
+    width: 50%;
+  }
 `;
-
 const StyleImage = styled.img`
-  width: 20%;
+  width: 210px;
   height: auto;
 `;
 
@@ -32,17 +51,19 @@ export const Popularstyles = () => {
         <img src={LoGo4} alt="" />
         <img src={LoGo5} alt="" />
       </div>
-      <div>
-        <div>
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <div className="contentLeft">
           <h2>Explore new and popular styles</h2>
           <img src={Model1} alt="" />
         </div>
         <div
-         style={{
+          className="contentRight"
+          style={{
             display: "flex",
             flexWrap: "wrap",
-            gap: 24,
-            flexDirection: "row",
+            gap: 20,
+            marginLeft: "20px",
+            justifyContent: "space-between",
           }}
         >
           <StyleImage src={Model1} alt="" />
