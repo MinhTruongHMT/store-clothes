@@ -1,6 +1,8 @@
 import { styled } from "styled-components";
 import Product5 from "assets/image-product-5.svg";
+import { Tag } from "components/Tag";
 const StyleDiv = styled.div`
+position: relative;
   width: 250px;
   .type-price {
     width: 100%;
@@ -27,6 +29,7 @@ export const Card = () => {
   return (
     <StyleDiv>
       <img src={Product5} alt="" />
+      <Tag bgColor={"#FF6F61"} title={"HOT"}></Tag>
       <h3 style={{ textAlign: "left", padding: "0px 10px" }}>
         Adicolor Classics Joggers
       </h3>
