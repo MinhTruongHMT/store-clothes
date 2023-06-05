@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+*{
+  box-sizing: border-box;
+  font-family: 'Cormorant Garamond', serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 24px;
+}

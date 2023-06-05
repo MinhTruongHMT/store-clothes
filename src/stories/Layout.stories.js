@@ -1,8 +1,8 @@
 import { Layout } from "components/Layout";
 
 export default {
-    title : "Home",
-    component:Layout,   
+    title : "layout",
+    component:Layout,       
 }
 
-export const Red =()=><Layout></Layout>;
+export const DefaultLayout=()=><Layout></Layout>;
