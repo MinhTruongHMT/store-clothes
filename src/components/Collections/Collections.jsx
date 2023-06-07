@@ -41,8 +41,9 @@ export const Collections = () => {
           you can explore ans shop many differnt collection from various barands
           here.
         </p>
-        <Button>
+        <Button title={"Shop Now"} bgclor={"#1e2832"} textColor={"white"}>
           <img src={ShopingIcon} alt="" />
+
         </Button>
       </div>
       <div className="contentRight">

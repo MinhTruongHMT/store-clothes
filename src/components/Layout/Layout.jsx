@@ -36,6 +36,7 @@ const StyleLayout = styled.div`
   }
   .content {
     margin: 31px 300px;
+    border: 1px solid black;
   }
 `;
 export const Layout = ({ children }) => {

@@ -38,7 +38,6 @@
 }
 *{
   box-sizing: border-box;
-  font-family: 'Cormorant Garamond', serif;
 }
 a{
   text-decoration: none;
@@ -48,3 +47,4 @@ a{
 button{
   cursor: pointer;
 }
+

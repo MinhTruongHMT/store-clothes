@@ -1,8 +1,7 @@
 import { styled } from "styled-components";
 
 const StyleTag = styled.div`
-  width: 100px;
-  height: 50px;
+  padding: 10px;
   color: white;
   text-align: center;
   background-color: ${(props) => props.bgColor};
@@ -10,7 +9,7 @@ const StyleTag = styled.div`
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
 `;
 export const Tag = ({ title, bgColor }) => {
