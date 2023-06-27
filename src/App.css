@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 24px;
+}
+button{
+  cursor: pointer;
+}
+
